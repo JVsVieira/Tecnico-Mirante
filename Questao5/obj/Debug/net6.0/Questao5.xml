@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Questao5</name>
+    </assembly>
+    <members>
+        <member name="T:Questao5.Domain.Resources.MessagesResource">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:Questao5.Domain.Resources.MessagesResource.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:Questao5.Domain.Resources.MessagesResource.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="P:Questao5.Domain.Resources.MessagesResource.APPLICATION_ERROR">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a APPLICATION_ERROR: Erro desconhecido na aplicação..
+            </summary>
+        </member>
+        <member name="P:Questao5.Domain.Resources.MessagesResource.INACTIVE_ACCOUNT">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a INACTIVE_ACCOUNT: Apenas contas correntes ativas podem receber movimentação..
+            </summary>
+        </member>
+        <member name="P:Questao5.Domain.Resources.MessagesResource.INVALID_ACCOUNT">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a INVALID_ACCOUNT: Apenas contas correntes cadastradas podem receber movimentação..
+            </summary>
+        </member>
+        <member name="P:Questao5.Domain.Resources.MessagesResource.INVALID_TYPE">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a INVALID_TYPE: Apenas os tipos &quot;D&quot; de débito e &quot;C&quot; de crédito são aceitos..
+            </summary>
+        </member>
+        <member name="P:Questao5.Domain.Resources.MessagesResource.INVALID_VALUE">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a INVALID_VALUE: Apenas valores positivos podem ser recebidos..
+            </summary>
+        </member>
+    </members>
+</doc>
